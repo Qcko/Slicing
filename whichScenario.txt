@@ -1,0 +1,6 @@
+selector: duration : nameOfScenarioFile : worldFlavorTextFile
+//ignore this
+// This: 100 : zkouska.txt : starwars.txt
+// This: 2000 : slicing-larp.txt : starwars.txt
+This: 1500 : zkouska.txt : starwars.txt
+

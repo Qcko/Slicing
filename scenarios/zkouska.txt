@@ -1,0 +1,6 @@
+selector: ID,serialNumber,Inventory%,Moves%,AvailableActions%,NeighboursString%ID
+Database:1,5M29MD87,data,null,downloadAratech%scanAratech%captureAratech,4
+Honeypot:2,8W248942,null,null,null,5%4
+Normal:3,465E72F6,null,null,scanCzerka%captureCzerka,5%4
+Normal:4,Z8248952,null,null,scanCEC%captureCEC,1%3
+Terminal:5,S732F9E8,null,null,scanGSI,2%3

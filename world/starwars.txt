@@ -1,0 +1,5 @@
+selector : text
+//ignore this
+ScenarioStart : Terminal breached. Defensive system response postponed.
+TimerSetUp : Defensive system will respond in
+WaitingForCommand : Enter command
