@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Purpose: Toolkit for Slicing app by Qcko. Functions for analysing node IDs, generating nodes, generating networks (scenarios).
-# Usage: As needed, but to begin, try import this module and run create_game() function. Observe results, try them in slicing app.
+# Usage: As needed, but to begin, look at create_game_example.py. Run, observe results, try them in slicing app.
 # Author(s): gavincz
 # License: LGPL copyleft
 
