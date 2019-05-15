@@ -63,7 +63,7 @@ public class SetUp {
         String scenarioFileName = null;
         String worldFileName = null;
 
-        String inputFilePath = programFull.getParent() + "\\" + INPUT_FILE_NAME;
+        String inputFilePath = programFull.getParent() + "/" + INPUT_FILE_NAME;
 
         if (Files.notExists(Paths.get(inputFilePath))) {
             System.out.println(inputFilePath + " does not exist");
@@ -75,8 +75,8 @@ public class SetUp {
                     if (!line.contains("//")) {
                         if (line.contains(SCENARIO_SELECTOR)) {
                             String[] splitted = line.split(":");
-                            worldFileName = "\\" + splitted[3].trim();
-                            scenarioFileName = "\\" + splitted[2].trim();
+                            worldFileName = "/" + splitted[3].trim();
+                            scenarioFileName = "/" + splitted[2].trim();
                             duration = Long.parseLong(splitted[1].trim());
                             break;
                         }
@@ -88,7 +88,7 @@ public class SetUp {
             }
         }
 
-        String worldDirPath = programFull.getParent() + "\\" + WORLD_DEPOSIT;
+        String worldDirPath = programFull.getParent() + "/" + WORLD_DEPOSIT;
         String worldPath = worldDirPath + worldFileName;
 
         if (Files.notExists(Paths.get(worldDirPath))) {
@@ -104,7 +104,7 @@ public class SetUp {
             }
         }
 
-        String scenarioDirPath = programFull.getParent() + "\\" + SCENARIO_DEPOSIT;
+        String scenarioDirPath = programFull.getParent() + "/" + SCENARIO_DEPOSIT;
         String scenarioPath = scenarioDirPath + scenarioFileName;
 
         if (Files.notExists(Paths.get(scenarioDirPath))) {
